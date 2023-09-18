@@ -1,0 +1,32 @@
+/*Write an Arrow function to print different menu for different day in a week.*/
+
+const printMenu = (day) => {
+  switch (day.toLowerCase()) {
+    case 'monday':
+      console.log("Monday's Menu: Pasta");
+      break;
+    case 'tuesday':
+      console.log("Tuesday's Menu: Maggi");
+      break;
+    case 'wednesday':
+      console.log("Wednesday's Menu: Badapao");
+      break;
+    case 'thursday':
+      console.log("Thursday's Menu: Dosa");
+      break;
+    case 'friday':
+      console.log("Friday's Menu: Margherita Pizza");
+      break;
+    case 'saturday':
+      console.log("Saturday's Menu: Juice");
+      break;
+    case 'sunday':
+      console.log("Sunday's Menu:Mixvag");
+      break;
+    default:
+      console.log("Invalid day of the week. Please enter a valid day.");
+  }
+};
+printMenu('Monday');
+printMenu('Wednesday');
+printMenu('Friday');
